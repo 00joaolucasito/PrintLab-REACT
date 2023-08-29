@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './index.scss';
 
-function App() {
+export default function Home() {
   return (
     <div className="App">
       <h1> Home </h1>
@@ -14,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+
