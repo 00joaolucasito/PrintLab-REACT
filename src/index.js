@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
 import Contato from './pages/contato';
 import Tarefas from './pages/tarefas';
+import Inserir from './pages/inserir';
+import Listar from './pages/listar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +17,8 @@ root.render(
         <Route path='/' element={<Home/>}/>
         <Route path='/contato' element={<Contato/>}/>
         <Route path='/tarefas' element={<Tarefas/>}/>
+        <Route path='/inserir' element={<Inserir />} />
+        <Route path='/listar' element={<Listar />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

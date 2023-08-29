@@ -12,6 +12,8 @@ export default function Home() {
       <nav className='menu'>
       <Link  to='/contato'> Contato </Link>
       <Link  to='/tarefas'> Tarefas </Link>
+      <Link to='/listar'> Consultar </Link>
+      <Link to='/inserir'> Inserir </Link>
       </nav>
     </div>
   );

@@ -3,9 +3,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
     background-color: #262626;
     color: #F1EFEF;
+    width: 1920px;
+    height: 228px;
+
+
+    .icon{
+        width: 294px;
+        height: 227px;
+    }
+
 
     .opcoes1{
         display: flex;
@@ -14,6 +22,11 @@
         .inpu{
             display: flex;
             flex-direction: row;
+            background-color: #fff;
+            width: 752px;
+            height: 56px;
+            
+
         }
     }
 
