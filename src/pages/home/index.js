@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom';
 import './index.scss';
+import Cabecalho from '../../components/cabecalho';
 
 export default function Home() {
   return (
     <div className="App">
+      <Cabecalho/>
+
       <h1> Home </h1>
 
       <nav className='menu'>
