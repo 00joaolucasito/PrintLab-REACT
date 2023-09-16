@@ -1,10 +1,8 @@
 .Imagen{
-    background-image: url('../images/images/login.png'); 
+    background-image: url('../images/images/login.png') no-repeat
+    center center; 
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 1920px;
-    height: 837px;
+    height: 92vh;
   }
   
   .Imagen h1 {

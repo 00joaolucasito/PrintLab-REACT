@@ -5,21 +5,26 @@ export default function Cabecalho() {
   
   return (
     <header className='comp-cabecalho'>
-        <img className='icon' src='/assets/images/printloba.png' alt='' />
+      <nav>
+        <img className='logo' src='/assets/images/printloba.png' alt='' />
           <input
           type="pesquisa"
           />
-         <nav>
-         <Link  to='/cadastro'>Criar conta</Link>
-         <Link  to='/loginpg'>Entrar</Link>
-         </nav>
-         <div>
-        <a>Categorias</a>
-        <a>Ofertas diárias</a>
-        <a>Histórico</a>
-        <a>E-mail</a>
-        <a>Sobre</a>
-         </div>
+        <div className='mobile-menu'>
+        <div className='line1'></div>
+        <div className='line2'></div>
+        <div className='line3'></div>
+        </div>
+        <ul className='nav-list'>
+        <Link to='/cadastro'><a> Criar conta</a></Link>
+        <Link  to='/loginpg'><a>Entrar</a></Link>
+        <Link to='/'><a>Categorias</a></Link>
+        <Link to='/'><a>Ofertas diárias</a></Link>
+        <Link to='/'><a>Histórico</a></Link>
+        <Link to='/'><a>E-mail</a></Link>
+        <Link to='/'><a>Sobre</a></Link>
+         </ul>
+        </nav> 
     </header>
   )
 }
