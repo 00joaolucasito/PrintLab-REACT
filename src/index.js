@@ -8,17 +8,21 @@ import Contato from './pages/contato';
 import Tarefas from './pages/tarefas';
 import Inserir from './pages/inserir';
 import Listar from './pages/listar';
+import CadastroProduto from './pages/cdtproduto';
+import Loginpg from './pages/loginpg';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/contato' element={<Contato/>}/>
-        <Route path='/tarefas' element={<Tarefas/>}/>
-        <Route path='/inserir' element={<Inserir />} />
-        <Route path='/listar' element={<Listar />} />
+        <Route path='/'             element={<Home/>}/>
+        <Route path='/contato'      element={<Contato/>}/>
+        <Route path='/tarefas'      element={<Tarefas/>}/>
+        <Route path='/inserir'      element={<Inserir />} />
+        <Route path='/listar'       element={<Listar />} />
+        <Route path='/cdtproduto'   element={< CadastroProduto/>} />
+        <Route path='/loginpg'      element={<Loginpg/>}  />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -1,0 +1,43 @@
+.login-container{
+    margin: 0 auto;
+    text-align: start;
+    padding: 645, 638px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    
+
+    width: 572px;
+    height: 568px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-sizing: border-box
+
+  h1 {
+    color: #000;
+    font-family: 'Roboto' Flex;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  input {
+    border-radius: 30px;
+    border: 1px solid #A9A9A9;
+    background: rgba(208, 208, 208, 0);
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFF;
+    color: #000;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #FFF;
+    }
+  }
+}
