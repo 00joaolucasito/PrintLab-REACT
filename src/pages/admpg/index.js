@@ -1,14 +1,17 @@
+import { Link } from 'react-router-dom';
 import { useState } from "react";
+import Cabecalho from '../../components/cabecalho/Cabecalho';
 
+import "./index.scss";
 
-import "./styles.scss";
-
-function Login() {
+function Adm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   return (
     <div className="container">
+      <Cabecalho/>
+
       <div className="container-login">
         <div className="wrap-login">
           <form className="login-form">
@@ -37,13 +40,6 @@ function Login() {
             <div className="container-login-form-btn">
               <button className="login-form-btn">Login</button>
             </div>
-
-            <div className="text-center">
-              <span className="txt1">Não possui conta? </span>
-              <a className="txt2" href="#">
-                Criar conta
-              </a>
-            </div>
           </form>
         </div>
       </div>
@@ -51,4 +47,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Adm;
