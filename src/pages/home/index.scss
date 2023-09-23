@@ -18,6 +18,14 @@
     height: 100px;
   }
 
-  
+  .fundo{
+    background-image: url('fundo2.png');
+    width: auto;
+    text-align: center;
+    color: #d9d9d9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }
 

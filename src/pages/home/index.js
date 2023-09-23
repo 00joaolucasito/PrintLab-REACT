@@ -12,6 +12,7 @@ export default function Home() {
 
 
             <Cabecalho/>
+            <div className='fundo'></div>
             <DivHome pos="pos1" img='/assets/images/l1.png' title='Impressoras 3D' texto='Dê vida às suas ideias com precisão e criatividade. Impressoras 3D de última geração, disponíveis agora para transformar sua imaginação em realidade.' />
             <DivHome pos="pos2" img='/assets/images/l2.png' title='Filamentos' texto='Desperte sua criatividade tridimensional com o filamento perfeito para suas impressões 3D. Qualidade e precisão que transformam ideias em realidade.' />
             <DivHome pos="pos1" img='/assets/images/l3.png' title='Impressões' texto='Descubra a magia da impressão tridimensional e adquira peças exclusivas que vão encantar e surpreender você. Utilizamos filamentos sustentáveis feitos de materiais reciclados.' />
