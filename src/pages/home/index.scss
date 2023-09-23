@@ -1,13 +1,11 @@
 .home{
   display: flex;
   flex-direction: column;
-
-
   background-color: #fff;
 
   .cont2 > div{
     background-image: url('fundo.png');
-
+    width: auto;
     text-align: center;
     color: #d9d9d9;
   }

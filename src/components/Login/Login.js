@@ -1,34 +1,54 @@
-import React, { useState } from 'react';
-import './Login.scss';
+import { useState } from "react";
 
-const Login = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
 
-  const handleLogin = () => {
-    // Adicione a lógica de autenticação aqui
-  };
+import "./styles.scss";
+
+function Login() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   return (
-    <div className="login-container">
-      <h2>Entrar</h2>
-      <h1>N° de telefone ou e-mail</h1>
-      <input
-        type="email"
-        placeholder="Email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-      <h1>Senha</h1>
-      <input
-        type="password"
-        placeholder="Senha"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-      />
-      <button onClick={handleLogin}>Entrar</button>
+    <div className="container">
+      <div className="container-login">
+        <div className="wrap-login">
+          <form className="login-form">
+            <span className="login-form-title"> Bem vindo </span>
+
+            <div className="wrap-input">
+              <input
+                className={email !== "" ? "has-val input" : "input"}
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <span className="focus-input" data-placeholder="Email"></span>
+            </div>
+
+            <div className="wrap-input">
+              <input
+                className={password !== "" ? "has-val input" : "input"}
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+              <span className="focus-input" data-placeholder="Password"></span>
+            </div>
+
+            <div className="container-login-form-btn">
+              <button className="login-form-btn">Login</button>
+            </div>
+
+            <div className="text-center">
+              <span className="txt1">Não possui conta? </span>
+              <a className="txt2" href="#">
+                Criar conta
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   );
-};
+}
 
 export default Login;
