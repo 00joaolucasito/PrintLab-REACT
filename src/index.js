@@ -11,7 +11,7 @@ import Listar from './pages/listar';
 import CadastroProduto from './pages/cdtproduto';
 import Loginpg from './pages/loginpg';
 import Cadastro from './pages/cadastro/Cadastro';
-import Admpg from './pages/admpg';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -27,7 +27,6 @@ root.render(
         <Route path='/cdtproduto'   element={< CadastroProduto/>} />
         <Route path='/loginpg'      element={<Loginpg/>}  />
         <Route path='/cadastro'      element={<Cadastro/>}  />
-        <Route path='/admpg'      element={<Admpg/>}  />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
