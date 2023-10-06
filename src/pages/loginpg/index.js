@@ -1,12 +1,21 @@
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 import { useState } from "react";
 import Cabecalho from '../../components/cabecalho/Cabecalho';
 
 import "./index.scss";
 
 function Login() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState('');
+  const [senha, setSenha] = useState('');
+
+
+
+
+  function criar(){
+    const r = axios.get('http://localhost:5000/cliente/login', {email: email, senha: senha});
+
+  }
 
   return (
     <div className="container">
@@ -29,16 +38,16 @@ function Login() {
 
             <div className="wrap-input">
               <input
-                className={password !== "" ? "has-val input" : "input"}
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
+                className={senha !== "" ? "has-val input" : "input"}
+                type="senha"
+                value={senha}
+                onChange={(e) => setSenha(e.target.value)}
               />
               <span className="focus-input" data-placeholder="Password"></span>
             </div>
 
             <div className="container-login-form-btn">
-              <button className="login-form-btn">Login</button>
+              <button className="login-form-btn" onClick={criar}>Login</button>
             </div>
 
             <div className="text-center">
