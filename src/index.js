@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
 
 import Home from './pages/home';
 import Contato from './pages/contato';
@@ -11,7 +11,7 @@ import Listar from './pages/listar';
 import CadastroProduto from './pages/cdtproduto';
 import Loginpg from './pages/loginpg';
 import Cadastro from './pages/cadastro/Cadastro';
-
+import Produtos from './pages/produtos';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,8 +25,9 @@ root.render(
         <Route path='/inserir'      element={<Inserir />} />
         <Route path='/listar'       element={<Listar />} />
         <Route path='/cdtproduto'   element={< CadastroProduto/>} />
-        <Route path='/loginpg'      element={<Loginpg/>}  />
-        <Route path='/cadastro'      element={<Cadastro/>}  />
+        <Route path='/loginpg'      element={<Loginpg/>}   />
+        <Route path='/cadastro'     element={<Cadastro/>}  />
+        <Route path='/produtos'    element={<Produtos/>}  />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -9,8 +9,10 @@ export default function Cabecalho() {
       <img className="imglogo"  src='/assets/images/printloba.png' alt="" />
       <input type="text" placeholder="Pesquisar" class="inputpesquisa" 
       />
-      <button class="butcr">Criar conta</button>
-      <button class="butcr">Login</button>
+      <nav className='butcr'>
+      <Link  to='/contato'> Criar conta </Link>
+      <Link  to='/tarefas'> Login </Link>
+      </nav>
     </div>
     <div class="baixo">
         <a href="" class="pto">Categorias</a>
