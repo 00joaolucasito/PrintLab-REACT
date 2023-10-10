@@ -6,7 +6,7 @@ export default function Cabecalho() {
   return (
     <header>
     <div class="cima">
-      <img src="../src/images/1534af0883834ad63654da55f618c624.png" alt="" class="imglogo"/>
+      <img className="imglogo"  src='/assets/images/printloba.png' alt="" />
       <input type="text" placeholder="Pesquisar" class="inputpesquisa" 
       />
       <button class="butcr">Criar conta</button>
@@ -20,7 +20,7 @@ export default function Cabecalho() {
         <a href="" class="pto">Sobre nós</a>
         <div class="car">
             <a href="www.google.com" class="opa">
-        <img src="../src/images/qawd-removebg-preview.png" alt="" class="imgcar"/>
+        <img className="imgcar" src='/assets/images/carro.png' />
     </a>
     </div>
     </div>
