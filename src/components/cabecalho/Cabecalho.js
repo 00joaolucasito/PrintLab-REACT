@@ -10,8 +10,8 @@ export default function Cabecalho() {
       <input type="text" placeholder="Pesquisar" class="inputpesquisa" 
       />
       <nav className='butcr'>
-      <Link  to='/contato'> Criar conta </Link>
-      <Link  to='/tarefas'> Login </Link>
+      <Link  to='/cadastro'> Criar conta </Link>
+      <Link  to='/loginpg'> Login </Link>
       </nav>
     </div>
     <div class="baixo">
