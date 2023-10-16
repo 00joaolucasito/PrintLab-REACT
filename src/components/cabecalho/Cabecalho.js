@@ -1,5 +1,5 @@
 import './index.scss';
-import { Link } from 'react-router-dom';
+
 
 export default function Cabecalho() {
 
@@ -9,10 +9,8 @@ export default function Cabecalho() {
       <img className="imglogo"  src='/assets/images/printloba.png' alt="" />
       <input type="text" placeholder="Pesquisar" class="inputpesquisa" 
       />
-      <nav className='butcr'>
-      <Link  to='/cadastro'> Criar conta </Link>
-      <Link  to='/loginpg'> Login </Link>
-      </nav>
+          <button class="butcr">Criar conta</button>
+          <button class="butcr">Login</button>
     </div>
     <div class="baixo">
         <a href="" class="pto">Categorias</a>
@@ -21,7 +19,7 @@ export default function Cabecalho() {
         <a href="" class="pto">E-mail</a>
         <a href="" class="pto">Sobre nós</a>
         <div class="car">
-            <a href="www.google.com" class="opa">
+        <a class="opa">
         <img className="imgcar" src='/assets/images/carro.png' />
     </a>
     </div>
