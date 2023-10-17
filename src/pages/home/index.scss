@@ -1,37 +1,191 @@
-.home{
+
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Nunito:wght@400;600;700&display=swap');
+.above{
+  width: 1260px;
+}
+
+
+.ppa{
+  background-image: url('capturar.png');
+  display: flex;
+  height: 410px;
+  background-size: 1360px 420px;
+  
+  
+  
+  background-repeat: no-repeat;
+}
+
+
+/*
+section img{
+  height: 425px;
+  
+  
+  
+}
+*/
+
+.tpo{
+  background-color: #a7edfa00;
+  height: 1200px;
   display: flex;
   flex-direction: column;
+  padding-top: 70px;
+  align-items: center;
+  
+
+}
+
+#tp1{
+  background-color: rgb(255, 255, 255);
+  height: 4900px;
+  width: 1090px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+ 
+
+align-items: center;
+
+}
+
+#imgtp{
+  
+  height: 330px;
+  width: 380px;
+  background-image: url('capturar2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+
+#tp2{
+  height: 330px;
+  width: 650px;
+
+  padding-left: 20px;
+  
+}
+
+
+#tp2 h1{
+  font-family: 'roboto' ;
+  font-size: 40px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  font-weight: 400;
+}
+
+#tp2 p{
+  font-family: 'roboto';
+  font-size: 23px;
+  justify-self: center;
+  align-self: center;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#tp2 button{
+  font-family: 'roboto';
+  font-size: large;
+  width: 140px;
+  height: 50px;
+  border-radius: 40px;
   background-color: #fff;
+  border: 2px solid #00000063;
+  color: #262626;
+  margin-left: 240px;
+}
 
-  .cont2 > div{
-    background-image: url('fundo.png');
-    width: auto;
-    text-align: center;
-    color: #d9d9d9;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+#tp2 button:hover{
+  border-color: #fff;
+  background-color: #262626;
+  color: #fff;
+  transition: 500ms;
+  
+}
 
-  .duvida{
-    background-color: rgba(34, 33, 33, 0.9);
-    height: 100px;
-  }
+#imgop{
+  height: 330px;
+  width: 380px;
+  background-image: url('capturar3.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
 
-  .home{
-    margin: 10px;
-    padding: 115px;
-  }
+#imgpp{
+  height: 330px;
+  width: 380px;
+  background-image: url('capturar2.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
 
 
-  .fundo{
-    background-image: url('fundo2.png');
-    width: auto;
-    text-align: center;
-    color: #d9d9d9;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+.ppw{
+  padding-left: 425px;
+}
+
+.imgpd{
+  height: 330px;
+  width: 380px;
+  background-image: url('capturar1.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin-right: 37px;
+}
+
+.asps{
+  margin-right: 500px;
+}
+
+#imgimpre{
+  background-image: url('fundo.png');
+  background-size: 1270px 620px;
+  width: 1270px;
+  height: 620px;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#imgimpre h1{
+  color: #D9D9D9;
+
+  text-align: center;
+  font-family: 'roboto';
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  justify-self: center;
+}
+
+#imgimpre p{
+  color: #D9D9D9;
+
+  text-align: center;
+  font-family: 'roboto';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 1100px;
+  margin-bottom: 180px;
+
+}
+
+#classbb a{
+  color: #4ea9ff;
 }
 
