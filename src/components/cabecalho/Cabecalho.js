@@ -5,6 +5,7 @@ export default function Cabecalho() {
 
   return (
     <header>
+      <div className='Renn'>
     <div class="cima">
       <img className="imglogo"  src='/assets/images/printloba.png' alt="" />
       <input type="text" placeholder="Pesquisar" class="inputpesquisa" 
@@ -23,6 +24,8 @@ export default function Cabecalho() {
         <img className="imgcar" src='/assets/images/carro.png' />
     </a>
     </div>
+    </div>
+
     </div>
 </header>
   )

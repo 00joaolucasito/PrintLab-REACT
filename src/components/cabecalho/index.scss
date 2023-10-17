@@ -4,7 +4,9 @@
 }
 
 header{
-    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    
     height: 128px;
     background-color: #262626;
     padding: 0px;
