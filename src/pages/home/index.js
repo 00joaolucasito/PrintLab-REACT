@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './index.scss';
 import Cabecalho from '../../components/cabecalho/Cabecalho';
 import Creality from '../../components/creality';
