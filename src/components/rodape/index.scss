@@ -3,8 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    height: 400px;
     background-color: #262626;
+}
     
     p{
         color: #b4b4b4;
@@ -26,6 +27,36 @@
         width: 200px;
     }
 
+  .dana  input{
+        color: #b4b4b4;
+        background-color: #414141;
+        text-align: center;
+
+        border: solid #b4b4b4 2px;
+        border-radius: 40px;
+        padding: 10px;
+        margin-bottom: 5px;
+        width: 200px;
+    }
+
+    .dana  button:hover{
+        color: #212121;
+        background-color: #b4b4b4;
+        text-align: center;
+
+        border: solid #212121 2px;
+        border-radius: 40px;
+        padding: 10px;
+        margin-bottom: 5px;
+        width: 200px;
+        font-family: 'roboto';
+        transition: 500ms;
+    }
+    
+  .d p:hover{
+    color: #b4b4b4;
+  }
+
     .b{
         color: #b4b4b4;
         background-color: #414141;
@@ -42,6 +73,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        margin-top: 30px;
 
     }
 
@@ -58,7 +90,9 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        width: 1267px;
+     justify-content: center;
+
     }
 
     .logo{
@@ -69,5 +103,56 @@
     .local{
         height: 35px;
         width: 25px;
+      
     }
+
+#dps{
+    width: 1260px;
+    height: 5px;
+    background-color: #959595;
+}
+
+.dmor{
+    justify-self: flex-start;
+    background-color: #4ea9ff00;
+    height: 150px;
+    align-items: flex-start;
+    font-family: 'roboto';
+    margin: 30px;
+    margin-bottom: 50px;
+}
+
+.d h3{
+    margin-bottom: 20px;
+}
+
+.d p:hover{
+   color: #d8d8d8;
+   
+}
+.dana p{
+    margin-bottom: 30px;
+}
+
+.pq{
+    width:6px;
+    height: 150px;
+    background-color: #1a1a1a;
+    border-radius: 30px;
+}
+
+
+.OS{
+height: 150px;
+width: 7px;
+background-color: #1a1a1a
+;
+border-radius: 50px;
+
+}
+
+.d2 p{
+font-family: 'roboto';
+margin-right: 170px;
+
 }

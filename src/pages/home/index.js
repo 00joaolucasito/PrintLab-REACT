@@ -1,7 +1,7 @@
 import './index.scss';
 import Cabecalho from '../../components/cabecalho/Cabecalho';
 import Rodape from '../../components/rodape';
-
+import Creality from '../../components/creality';
 
 export default function Home() {
   return (
@@ -69,12 +69,9 @@ export default function Home() {
                <p>Alguma dúvida? Nos contate enviando um <a href="">e-mail </a>!</p>
             </div>
     
-    
-        </section>
-
-        
-
             
+        </section>
+            <Creality/>
           <Rodape/>
         </section>
     </div>

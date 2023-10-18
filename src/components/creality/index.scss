@@ -1,33 +1,31 @@
-.ksl{
+.ksl {
     background-color: #4ea9ff00;
-    width: 1265
-    px;
+    width: 1265px;
     display: flex;
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 630px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 
-    .imgim{
-        background-image: url('impressoraapng');
+    .imgim {
+        background-image: url('impressoraa.png');
         height: 400px;
         width: 400px;
         background-size: cover;
     }
-    
-    
-    .ppqs{
+
+
+    .ppqs {
         display: flex;
         flex-direction: column;
-       
-        
+
+
     }
-    
-    .ppqs button{
+
+    .ppqs button {
         justify-self: center;
         font-family: 'roboto';
         font-size: large;
@@ -39,34 +37,31 @@
         color: #262626;
         margin-top: 40px;
     }
-    
-    
-    .ppqs img{
-      margin-bottom: 45px;
-       
+
+
+    .ppqs img {
+        margin-bottom: 45px;
+
     }
-    
-    .ppqs h1{
+
+    .ppqs h1 {
         font-size: 35px;
         font-family: 'roboto';
-        font-weight:400
-        ;
+        font-weight: 400;
         margin-bottom: 30px;
     }
-    
-    .ppqs p{
+
+    .ppqs p {
         font-size: 25px;
         font-family: 'roboto';
-        font-weight:300
+        font-weight: 300
     }
-    
-    
-    .ppqs button:hover{
+
+
+    .ppqs button:hover {
         background-color: #262626;
         transition: 500ms;
         color: #ffffff;
-        
+
     }
 }
-
-
