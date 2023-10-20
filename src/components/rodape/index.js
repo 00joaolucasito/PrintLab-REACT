@@ -36,9 +36,9 @@ export default function Rodape(){
             <div id="dps"></div>
             <div class='d2'>
                 <div class="oa">
-                    <img class='logo' src='../src/images/logo2 (1).png' alt='' />
+                    <img class='logo' src='/assets/images/logo2.png' alt='' />
                 </div>
-                <p class=""> <img class='local' src='../src/images/local.png' alt='' /> Rua das Flores, 123, Bairro
+                <p class=""> <img class='local' src='/assets/images/local.png' alt='' /> Rua das Flores, 123, Bairro
                     Novo, Cidade Fictícia, Estado Imaginário, CEP 12345-678.</p>
             </div>
 
