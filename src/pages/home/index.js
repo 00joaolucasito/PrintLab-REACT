@@ -57,7 +57,23 @@ export default function Home() {
         <div id="imgpp">
 
         </div>
+        <div id="tp1">
+            <div
+            id="imgop"></div>
+            <div  id="tp2">
+                <h1>
+                    Impressoras 3D
+                </h1>
 
+                <p>
+                    Dê vida às suas ideias com precisão e criatividade. Impressoras 3D de última geração, disponíveis agora para transformar sua imaginação em realidade.
+                </p>
+
+                <button>
+                    Saiba mais
+                </button>
+            </div>
+        </div>
 
 
         <section id="imgimpre">
