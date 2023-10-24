@@ -58,38 +58,38 @@ export default function Home() {
 
         </div>
         <div id="tp1">
-            <div
+          <div
             id="imgop"></div>
-            <div  id="tp2">
-                <h1>
-                    Impressoras 3D
-                </h1>
+          <div id="tp2">
+            <h1>
+              Impressoras 3D
+            </h1>
 
-                <p>
-                    Dê vida às suas ideias com precisão e criatividade. Impressoras 3D de última geração, disponíveis agora para transformar sua imaginação em realidade.
-                </p>
+            <p>
+              Dê vida às suas ideias com precisão e criatividade. Impressoras 3D de última geração, disponíveis agora para transformar sua imaginação em realidade.
+            </p>
 
-                <button>
-                    Saiba mais
-                </button>
-            </div>
+            <button>
+              Saiba mais
+            </button>
+          </div>
         </div>
 
 
         <section id="imgimpre">
-            <h1> O que são impressoras 3D?</h1>
-    
-            <p>Uma impressora 3D é uma máquina revolucionária que permite criar objetos tridimensionais a partir de um modelo digital. Ela utiliza uma variedade de materiais, como plástico, resina, metal ou até mesmo alimentos, para construir camadas sucessivas e criar a forma desejada. Esses materiais são aquecidos e depositados em camadas finas, seguindo as especificações do modelo digital, até que o objeto seja completamente formado. Com a impressora 3D, é possível materializar praticamente qualquer coisa, desde pequenos acessórios até peças complexas e funcionais, abrindo um mundo de possibilidades criativas e práticas.</p>
-    
-            <div id="classbb">
-               <p>Alguma dúvida? Nos contate enviando um <a href="">e-mail </a>!</p>
-            </div>
-    
-            
+          <h1> O que são impressoras 3D?</h1>
+
+          <p>Uma impressora 3D é uma máquina revolucionária que permite criar objetos tridimensionais a partir de um modelo digital. Ela utiliza uma variedade de materiais, como plástico, resina, metal ou até mesmo alimentos, para construir camadas sucessivas e criar a forma desejada. Esses materiais são aquecidos e depositados em camadas finas, seguindo as especificações do modelo digital, até que o objeto seja completamente formado. Com a impressora 3D, é possível materializar praticamente qualquer coisa, desde pequenos acessórios até peças complexas e funcionais, abrindo um mundo de possibilidades criativas e práticas.</p>
+
+          <div id="classbb">
+            <p>Alguma dúvida? Nos contate enviando um <a href="">e-mail </a>!</p>
+          </div>
+
+
         </section>
-            <Creality/>
-          <Rodape/>
-        </section>
+        <Creality />
+        <Rodape />
+      </section>
     </div>
   );
 }
