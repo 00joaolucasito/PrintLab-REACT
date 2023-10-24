@@ -30,7 +30,7 @@ export default function Rodape(){
                 <div class='dana'>
                     <h3> Junte-se a Nós </h3>
                     <p>Assinar para receber as ultimas noticias</p> <input placeholder="Envie seu e-mail"/> 
-                    <button className='b'> Enviar </button>
+                    <button className=''> Enviar </button>
                 </div>
             </div>
             <div id="dps"></div>
