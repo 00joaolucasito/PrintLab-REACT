@@ -18,8 +18,8 @@ export default function Produtos(){
             <div className='meio'> 
 
             </div>
-            <Rodape/>
         </div>
+        <Rodape/>
     </div>
     );
 }
