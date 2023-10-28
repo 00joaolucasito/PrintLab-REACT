@@ -1,15 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Knewave&family=Nunito:wght@400;600;700&display=swap');
-.above{
-  width: 1260px;
+
+@font-face {
+  font-family: 'roboto';
+  src: url('../../../public/assets/fonts/RobotoFlex[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght].woff2') format(woff2);
 }
 
 
 .ppa{
   background-image: url('capturar.png');
   display: flex;
-  height: 410px;
-  background-size: 1360px 420px;
+  height: 55vh;
+  background-size: 100%;
   
   
   

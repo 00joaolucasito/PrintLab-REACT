@@ -9,7 +9,7 @@ export default function Creality() {
             <div className="ksl">
                 <div className="imgim"></div>
                 <div className="ppqs">
-                    <img src="../src/images/bakc-removebg-preview.png" alt="" />
+                    <img src="/assets/images/creality.png" alt="" />
                     <h1>Impressora 3D Creality Ender-3</h1>
                     <p>-Versátil</p>
                     <p>-Baixo Custo/Custo benefífio</p>
